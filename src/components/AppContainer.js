@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { addRecipe, removeFromCalendar } from '../actions';
-import { capitalize } from '../utils/helper';
-import Loading from 'react-loading';
-import { fetchRecipes } from '../utils/api';
 import App from './App';
 
 function mapStateToProps({ calendar, food }) {
